@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html>
+  <title>Bootstrap template- Pizza 365 project</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+
+  <!-- Bootstrap -->
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="./pizza.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <body style="background-color: #ffffcc">
+    <!-- Menu -->
+    <div class="container-fluid bg-light">
+      <div class="row">
+        <div class="col-sm-12">
+          <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav nav-fill w-100">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#plans">Size</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">Type</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Order</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="container" style="padding: 120px 0 50px 0">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="row">
+            <!-- Title row home -->
+            <div class="col-sm-12">
+              <h1>
+                <b style="color: #006600">Pizza 365</b><br />
+                <b style="color: #ffcc00">Truly Italian!</b>
+              </h1>
+            </div>
+
+            <!-- Slide row home -->
+            <div class="col-sm-12">
+              <div
+                id="carouselExampleIndicators"
+                class="carousel slide"
+                data-ride="carousel"
+              >
+                <ol class="carousel-indicators">
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="0"
+                    class="active"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="1"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="2"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="3"
+                  ></li>
+                  <li
+                    data-target="#carouselExampleIndicators"
+                    data-slide-to="4"
+                  ></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      class="d-block w-100"
+                      src="images/mon_y_1.jpg"
+                      alt="First slide"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      class="d-block w-100"
+                      src="images/mon_y_2.jpg"
+                      alt="Second slide"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      class="d-block w-100"
+                      src="images/mon_y_3.jpg"
+                      alt="Third slide"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      class="d-block w-100"
+                      src="images/mon_y_4.jpg"
+                      alt="Third slide"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      class="d-block w-100"
+                      src="images/mon_y_5.jpg"
+                      alt="Third slide"
+                    />
+                  </div>
+                </div>
+                <a
+                  class="carousel-control-prev"
+                  href="#carouselExampleIndicators"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a
+                  class="carousel-control-next"
+                  href="#carouselExampleIndicators"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Title what we offer -->
+            <div class="col-sm-12 text-center p-4 mt-4">
+              <h2><b class="p-2 border-bottom">What We Offer</b></h2>
+            </div>
+
+            <!-- Content what we offer -->
+            <div class="col-sm-12">
+              <div class="row">
+                <div
+                  class="col-sm-3 p-4 border"
+                  style="background-color: #ffcc00"
+                >
+                  <h3 class="p-2">Special Taste</h3>
+                  <p class="p-2">
+                    Phasellus eget enim eu lectus faucibus vestibulum.
+                    Suspendisse sodales pellentesque elementum.
+                  </p>
+                </div>
+                <div
+                  class="col-sm-3 p-4 text-warning border"
+                  style="background-color: #006600"
+                >
+                  <h3 class="p-2">Affordable Price</h3>
+                  <p class="p-2">
+                    Phasellus eget enim eu lectus faucibus vestibulum.
+                    Suspendisse sodales pellentesque elementum.
+                  </p>
+                </div>
+                <div
+                  class="col-sm-3 p-4 border"
+                  style="background-color: #ffcc00"
+                >
+                  <h3 class="p-2">Quick Shipping</h3>
+                  <p class="p-2">
+                    Phasellus eget enim eu lectus faucibus vestibulum.
+                    Suspendisse sodales pellentesque elementum.
+                  </p>
+                </div>
+                <div
+                  class="col-sm-3 p-4 text-warning border"
+                  style="background-color: #006600"
+                >
+                  <h3 class="p-2">Clean</h3>
+                  <p class="p-2">
+                    Phasellus eget enim eu lectus faucibus vestibulum.
+                    Suspendisse sodales pellentesque elementum.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="plans" class="row">
+            <!-- Title what we offer -->
+            <div class="col-sm-12 text-center p-4 mt-4">
+              <h2>
+                <b class="p-1 border-bottom" style="color: #006600"
+                  >Menu Combo Pizza 365</b
+                >
+              </h2>
+              <p>
+                <span class="p-2"
+                  >Choose a pizza size that fits your needs.</span
+                >
+              </p>
+            </div>
+            <!-- Content what we offer -->
+            <div class="col-sm-12">
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="card">
+                    <div class="card-header bg-success text-white text-center">
+                      <h3>Small</h3>
+                    </div>
+                    <div class="card-body text-center">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><b>20cm</b> Diameter</li>
+                        <li class="list-group-item"><b>2</b> Baked Ribs</li>
+                        <li class="list-group-item"><b>200g</b> Salad</li>
+                        <li class="list-group-item"><b>2</b> Drinks</li>
+                        <li class="list-group-item">
+                          <h1><b>150.000</b></h1>
+                          VND
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-footer text-center">
+                      <button
+                        id="btnS"
+                        onclick="onCLickChooseSize('S')"
+                        class="btn btn-success"
+                      >
+                        Choose
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="card">
+                    <div class="card-header bg-success text-white text-center">
+                      <h3>Medium</h3>
+                    </div>
+                    <div class="card-body text-center">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><b>25cm</b> Diameter</li>
+                        <li class="list-group-item"><b>4</b> Baked Ribs</li>
+                        <li class="list-group-item"><b>300g</b> Salad</li>
+                        <li class="list-group-item"><b>3</b> Drinks</li>
+                        <li class="list-group-item">
+                          <h1><b>200.000</b></h1>
+                          VND
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-footer text-center">
+                      <button
+                        id="btnM"
+                        onclick="onCLickChooseSize('M')"
+                        class="btn btn-success"
+                      >
+                        Choose
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="card">
+                    <div class="card-header bg-success text-white text-center">
+                      <h3>Large</h3>
+                    </div>
+                    <div class="card-body text-center">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><b>30cm</b> Diameter</li>
+                        <li class="list-group-item"><b>8</b> Baked Ribs</li>
+                        <li class="list-group-item"><b>500g</b> Salad</li>
+                        <li class="list-group-item"><b>4</b> Drinks</li>
+                        <li class="list-group-item">
+                          <h1><b>250.000</b></h1>
+                          VND
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-footer text-center">
+                      <button
+                        id="btnL"
+                        onclick="onCLickChooseSize('L')"
+                        class="btn btn-success"
+                      >
+                        Choose
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="about" class="row">
+            <!-- Title Who We Are -->
+            <div class="col-sm-12 text-center p-4 mt-4">
+              <h2>
+                <b class="p-2 border-bottom" style="color: #006600"
+                  >Choose Pizza Type</b
+                >
+              </h2>
+            </div>
+
+            <!-- Content Who We Are -->
+            <div class="col-sm-12">
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="card w-100" style="width: 18rem">
+                    <img src="images/pizza_type_1.jpg" class="card-img-top" />
+                    <div class="card-body">
+                      <h3>Hawaii</h3>
+                      <p>Pork, pinapple, ...</p>
+                      <p>
+                        Phasellus eget enim eu lectus faucibus vestibulum.
+                        Suspendisse sodales pellentesque elementum.
+                      </p>
+                      <p>
+                        <button
+                          onclick="onClickChooseType('Hawaii')"
+                          id="btnHawaii"
+                          class="btn btn-success w-100"
+                        >
+                          Choose
+                        </button>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="card w-100" style="width: 18rem">
+                    <img src="images/pizza_type_2.jpg" class="card-img-top" />
+                    <div class="card-body">
+                      <h3>Seafood</h3>
+                      <p>Crab, shrimp, squid, ...</p>
+                      <p>
+                        Phasellus eget enim eu lectus faucibus vestibulum.
+                        Suspendisse sodales pellentesque elementum.
+                      </p>
+                      <p>
+                        <button
+                          onclick="onClickChooseType('Seafood')"
+                          id="btnSeafood"
+                          class="btn btn-success w-100"
+                        >
+                          Choose
+                        </button>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="card w-100" style="width: 18rem">
+                    <img src="images/pizza_type_3.jpg" class="card-img-top" />
+                    <div class="card-body">
+                      <h3>Bacon</h3>
+                      <p>Bacon, tomato, ...</p>
+                      <p>
+                        Phasellus eget enim eu lectus faucibus vestibulum.
+                        Suspendisse sodales pellentesque elementum.
+                      </p>
+                      <p>
+                        <button
+                          onclick="onClickChooseType('Bacon')"
+                          id="btnBacon"
+                          class="btn btn-success w-100"
+                        >
+                          Choose
+                        </button>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="contact" class="row">
+            <!-- Title Contact Us -->
+            <div class="col-sm-12 text-center p-4 mt-4">
+              <h2>
+                <b class="p-2 border-bottom" style="color: #006600"
+                  >Confirm Order</b
+                >
+              </h2>
+            </div>
+
+            <!-- Content Contact Us -->
+            <div
+              class="col-sm-12 p-2 jumbotron"
+              style="background-color: #ffcc00"
+            >
+              <div class="row">
+                <div class="col-sm-12" style="color: #006600">
+                  <div class="form-group">
+                    <label for="fullname"><b>Full name</b></label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="inpFullName"
+                      placeholder="Full name"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="email"><b>Email</b></label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="inpEmail"
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="dien-thoai"><b>Phone Number</b></label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="inpPhoneNumber"
+                      placeholder="Phone Number"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="dia-chi"><b>Address</b></label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="inpAddress"
+                      placeholder="Address"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="message"><b>Message</b></label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="inpMessage"
+                      placeholder="Message"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="voucher"
+                      ><b>Discount Code (Voucher ID)</b></label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="inpVoucherId"
+                      placeholder="Voucher ID"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              onclick="onCLickSendOrder()"
+              type="button"
+              class="btn btn-success w-100"
+            >
+              Send Order
+            </button>
+            <!-- vùng hiển thị thông tin đơn hàng(order) -->
+            <div
+              id="div-container-order"
+              class="container bg-warning p-2 mt-5 jumbotron"
+              style="display: none"
+            >
+              <div id="div-order-infor" class="text-white p-3">...</div>
+              <div class="p-2">
+                <button
+                  onclick="onClickConfirmOrder()"
+                  type="button"
+                  class="btn btn-success w-100"
+                >
+                  Confirm
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid bg-light p-5">
+      <div class="row text-center">
+        <div class="col-sm-12">
+          <h4 class="m-2">Footer</h4>
+          <a href="#" class="btn btn-dark m-3"
+            ><i class="fa fa-arrow-up"></i>To the top</a
+          >
+          <div class="m-2">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      "use strict";
+      /*** REGION 1 - Global variables - Vùng khai báo biến, hằng số, tham số TOÀN CỤC */
+      // bạn có thể dùng để lưu trữ combo được chọn,
+      // mỗi khi khách chọn menu S, M, L bạn lại đổi giá trị properties của nó
+      var sizeS = {
+        menuName: "S",
+        duongKinhCM: 20,
+        suongNuong: 2,
+        saladGr: 200,
+        drink: 2,
+        priceVND: 150000,
+      };
+
+      var sizeM = {
+        menuName: "M",
+        duongKinhCM: 25,
+        suongNuong: 4,
+        saladGr: 300,
+        drink: 3,
+        priceVND: 200000,
+      };
+
+      var sizeL = {
+        menuName: "L",
+        duongKinhCM: 30,
+        suongNuong: 8,
+        saladGr: 500,
+        drink: 4,
+        priceVND: 250000,
+      };
+
+      var btnS = document.getElementById("btnS");
+      var btnM = document.getElementById("btnM");
+      var btnL = document.getElementById("btnL");
+
+      var btnHawaii = document.getElementById("btnHawaii");
+      var btnSeafood = document.getElementById("btnSeafood");
+      var btnBacon = document.getElementById("btnBacon");
+
+      var inputFullName = document.getElementById("inpFullName");
+      var inputEmail = document.getElementById("inpEmail");
+      var inputPhoneNumber = document.getElementById("inpPhoneNumber");
+      var inputAddress = document.getElementById("inpAddress");
+      var inputMessage = document.getElementById("inpMessage");
+      var inputVoucherId = document.getElementById("inpVoucherId");
+
+      var containerOrder = document.getElementById("div-container-order");
+      var inforOrder = document.getElementById("div-order-infor");
+
+      var gSelectedMenuStructure = {
+        menuName: "",
+        duongKinhCM: 0,
+        suongNuong: 0,
+        saladGr: 0,
+        drink: 0,
+        priceVND: 0,
+      };
+
+      // bạn có thể dùng để lưu loại pizza đươc chọn, mỗi khi khách chọn, bạn lại đổi giá trị cho nó
+      var gSelectedPizzaType = "";
+      // danh sách các mã giảm giá
+      var gDiscountVouchers = [
+        { voucherID: "A1", percentDiscount: 20 }, // mã giảm giá là A1, phần trăm giảm giá 20%
+        { voucherID: "A2", percentDiscount: 10 },
+        { voucherID: "A3", percentDiscount: 5 },
+        { voucherID: "A4", percentDiscount: 30 },
+        { voucherID: "A5", percentDiscount: 20 },
+        { voucherID: "B1", percentDiscount: 25 },
+        { voucherID: "B2", percentDiscount: 15 },
+        { voucherID: "B3", percentDiscount: 5 },
+        { voucherID: "B4", percentDiscount: 30 },
+        { voucherID: "B5", percentDiscount: 40 },
+      ];
+      /*** REGION 2 - Vùng gán / thực thi hàm xử lý sự kiện cho các elements */
+
+      /*** REGION 3 - Event handlers - Vùng khai báo các hàm xử lý sự kiện */
+      function onCLickChooseSize(size) {
+        switch (size) {
+          case "S":
+            gSelectedMenuStructure = sizeS;
+            //console.log(gSelectedMenuStructure);
+
+            btnS.className = "btn btn-warning";
+            btnM.className = "btn btn-success";
+            btnL.className = "btn btn-success";
+            break;
+          case "M":
+            gSelectedMenuStructure = sizeM;
+            //console.log(gSelectedMenuStructure);
+
+            btnS.className = "btn btn-success";
+            btnM.className = "btn btn-warning";
+            btnL.className = "btn btn-success";
+            break;
+          case "L":
+            gSelectedMenuStructure = sizeL;
+            //console.log(gSelectedMenuStructure);
+
+            btnS.className = "btn btn-success";
+            btnM.className = "btn btn-success";
+            btnL.className = "btn btn-warning";
+            break;
+        }
+      }
+
+      function onClickChooseType(type) {
+        switch (type) {
+          case "Hawaii":
+            gSelectedPizzaType = "Hawaii";
+            //console.log(gSelectedPizzaType);
+
+            btnHawaii.className = "btn btn-warning w-100";
+            btnSeafood.className = "btn btn-success w-100";
+            btnBacon.className = "btn btn-success w-100";
+            break;
+          case "Seafood":
+            gSelectedPizzaType = "Seafood";
+            //console.log(gSelectedPizzaType);
+
+            btnHawaii.className = "btn btn-success w-100";
+            btnSeafood.className = "btn btn-warning w-100";
+            btnBacon.className = "btn btn-success w-100";
+            break;
+          case "Bacon":
+            gSelectedPizzaType = "Bacon";
+            //console.log(gSelectedPizzaType);
+
+            btnHawaii.className = "btn btn-success w-100";
+            btnSeafood.className = "btn btn-success w-100";
+            btnBacon.className = "btn btn-warning w-100";
+            break;
+          default:
+            return (gSelectedPizzaType = "");
+        }
+      }
+
+      function onCLickSendOrder() {
+        inforOrder.innerHTML = "";
+
+        var vPersonData = {
+          fullName: inputFullName.value.trim(),
+          email: inputEmail.value.trim(),
+          phoneNumber: inputPhoneNumber.value.trim(),
+          address: inputAddress.value.trim(),
+          message: inputMessage.value.trim(),
+          voucherId: inputVoucherId.value.trim(),
+        };
+
+        var isValid = checkValidateData(vPersonData);
+
+        if (isValid) {
+          containerOrder.style.display = "block";
+          showData(vPersonData);
+        } else {
+          containerOrder.style.display = "none";
+        }
+      }
+
+      function onClickConfirmOrder() {
+        console.log(inputFullName.value);
+        console.log(inputEmail.value);
+        console.log(inputPhoneNumber.value);
+        console.log(inputAddress.value);
+        if (inputMessage.value !== "") {
+          console.log(inputMessage.value);
+        }
+
+        console.log(gSelectedMenuStructure.menuName);
+        console.log(gSelectedMenuStructure.duongKinhCM);
+        console.log(gSelectedMenuStructure.suongNuong);
+        console.log(gSelectedMenuStructure.saladGr);
+        console.log(gSelectedMenuStructure.drink);
+
+        console.log(gSelectedPizzaType);
+        console.log(gSelectedMenuStructure.priceVND);
+
+        if (inputVoucherId.value !== "") {
+          console.log(inputVoucherId.value);
+          let { percentDiscount, payment } = calPrice(inputVoucherId.value);
+          console.log(percentDiscount);
+          console.log(payment);
+        } else {
+          console.log(gSelectedMenuStructure.priceVND);
+        }
+        inforOrder.innerHTML = "";
+        containerOrder.style.display = "none";
+      }
+      /*** REGION 4 - Common funtions - Vùng khai báo hàm dùng chung trong toàn bộ chương trình*/
+
+      function checkValidateData(paramPerson) {
+        if (gSelectedMenuStructure.menuName === "") {
+          alert("Choose Pizza Size");
+          return false;
+        }
+        if (gSelectedPizzaType === "") {
+          alert("Choose Pizza Type");
+          return false;
+        }
+        if (paramPerson.fullName === "") {
+          alert("Provide Fullname");
+          return false;
+        }
+        if (paramPerson.email === "" || !paramPerson.email.includes("@")) {
+          alert("Provide Email");
+          return false;
+        }
+        if (paramPerson.email === "@") {
+          alert("Wrong Email Address");
+          return false;
+        }
+        if (isNaN(parseInt(paramPerson.phoneNumber))) {
+          alert("Provide Phone Number");
+          return false;
+        }
+        if (paramPerson.address === "") {
+          alert("Provide Address");
+          return false;
+        }
+        if (paramPerson.voucherId !== "") {
+          for (let i = 0; i < gDiscountVouchers.length - 1; i++) {
+            if (gDiscountVouchers[i].voucherID === paramPerson.voucherId) {
+              return true;
+            }
+          }
+          alert("Voucher Id Not Exist");
+          return false;
+        }
+
+        return true;
+      }
+
+      function calPrice(paramVoucherId) {
+        let percentDiscount = 0;
+
+        for (let i = 0; i < gDiscountVouchers.length - 1; i++) {
+          if (gDiscountVouchers[i].voucherID === paramVoucherId) {
+            percentDiscount = gDiscountVouchers[i].percentDiscount;
+          }
+        }
+        let payment =
+          (gSelectedMenuStructure.priceVND * (100 - percentDiscount)) / 100;
+
+        return { percentDiscount, payment };
+      }
+
+      function showData(paramPerson) {
+        if (paramPerson.voucherId !== "") {
+          var { percentDiscount, payment } = calPrice(paramPerson.voucherId);
+        }
+
+        var inforOrderTemplate = `
+          <div>
+            <p>Full Name: ${paramPerson.fullName}</p>
+            <p>Email: ${paramPerson.email}</p>
+            <p>Phone Number: ${paramPerson.phoneNumber}</p>
+            <p>Address: ${paramPerson.address}</p>
+            <p>Message: ${paramPerson.message}</p>
+
+            <hr />
+
+            <p>Size: ${gSelectedMenuStructure.menuName}</p>
+            <p>Diameter: ${gSelectedMenuStructure.duongKinhCM}</p>
+            <p>Baked Ribs: ${gSelectedMenuStructure.suongNuong}</p>
+            <p>Salad: ${gSelectedMenuStructure.saladGr}</p>
+            <p>Drinks: ${gSelectedMenuStructure.drink}</p>
+
+            <hr />
+
+            <p>Pizza Type: ${gSelectedPizzaType}</p>
+            <p>Voucher Code: ${paramPerson.voucherId}</p>
+            <p>Price VND: ${gSelectedMenuStructure.priceVND.toLocaleString()}</p>
+            <p>Discount: ${paramPerson.voucherId ? percentDiscount : 0}%</p>
+            <p>Payment: ${
+              paramPerson.voucherId
+                ? payment.toLocaleString()
+                : gSelectedMenuStructure.priceVND.toLocaleString()
+            } VND</p>
+          </div>
+        `;
+
+        inforOrder.innerHTML += inforOrderTemplate;
+      }
+    </script>
+  </body>
+</html>
