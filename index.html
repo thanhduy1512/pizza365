@@ -632,6 +632,11 @@
             btnM.className = "btn btn-success";
             btnL.className = "btn btn-warning";
             break;
+          case "":
+            gSelectedMenuStructure = gSelectedMenuStructure;
+            btnS.className = "btn btn-success";
+            btnM.className = "btn btn-success";
+            btnL.className = "btn btn-success";
         }
       }
 
@@ -661,8 +666,13 @@
             btnSeafood.className = "btn btn-success w-100";
             btnBacon.className = "btn btn-warning w-100";
             break;
-          default:
-            return (gSelectedPizzaType = "");
+          case "":
+            gSelectedPizzaType = "";
+
+            btnHawaii.className = "btn btn-success w-100";
+            btnSeafood.className = "btn btn-success w-100";
+            btnBacon.className = "btn btn-success w-100";
+            break;
         }
       }
 
@@ -716,6 +726,14 @@
         }
         inforOrder.innerHTML = "";
         containerOrder.style.display = "none";
+        onCLickChooseSize("");
+        onClickChooseType("");
+        inputFullName.value = "";
+        inputEmail.value = "";
+        inputPhoneNumber.value = "";
+        inputAddress.value = "";
+        inputMessage.value = "";
+        inputVoucherId.value = "";
       }
       /*** REGION 4 - Common funtions - Vùng khai báo hàm dùng chung trong toàn bộ chương trình*/
 
